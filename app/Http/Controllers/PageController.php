@@ -10,7 +10,7 @@ class PageController extends Controller
     {
         return Inertia::render('Home', [
             'title' => 'Welcome to Pantabangan',
-            'metaDescription' => 'Explore the natural beauty and rich culture of Pantabangan, Aurora.'
+            'metaDescription' => 'Explore the natural beauty and rich culture of Pantabangan, Nueva Ecija.'
         ]);
     }
 

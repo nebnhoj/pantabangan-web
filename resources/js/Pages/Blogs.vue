@@ -1,7 +1,7 @@
 <template>
     <div class="p-6">
       <h1 class="text-3xl font-bold">Blogs Pantabangan</h1>
-      <p class="mt-4 text-lg">Explore the heart of Aurora!</p>
+      <p class="mt-4 text-lg">Explore the heart of Nueva Ecija!</p>
     </div>
   </template>
 
