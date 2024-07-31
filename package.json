@@ -21,6 +21,7 @@
         "@inertiajs/progress": "^0.2.7",
         "@inertiajs/vue3": "^1.2.0",
         "@types/node": "^22.0.0",
-        "typescript": "^5.5.4"
+        "typescript": "^5.5.4",
+        "vue-disqus": "^5.1.0"
     }
 }
