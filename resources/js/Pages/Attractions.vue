@@ -10,7 +10,7 @@
             <h2 class="card-title">{{ attraction.title }}</h2>
             <p>{{ attraction.description }}</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary">Visit</button>
+              <a class="btn btn-primary" :href="`/attractions/${attraction.slug}`">Visit</a>
             </div>
           </div>
         </div>

@@ -1,4 +1,21 @@
 <template>
+       <Head>
+        <title>{{ $props.title ?? 'Pantabangan' }}</title>
+        <meta name="description" :content="$props.metaDescription ?? 'Welcome to Pantabangan'">
+        <meta name="keywords" content="Pantabangan, Nueva Ecija, Pantabangan Dam, tourist attractions, history, culture, anta, nueva ecija">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.pantabangan.com/">
+    <meta property="og:title" content="Pantabangan: Discover the Beauty and History">
+    <meta property="og:description" content="Explore the rich history and scenic attractions of Pantabangan, including the famous Pantabangan Dam.">
+    <meta property="og:image" content="https://www.bworldonline.com/wp-content/uploads/2023/05/Pantabangan-Dam-NIA.GOV_.PH_.jpg">
+    <meta property="og:url" content="https://www.pantabangan.com/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pantabangan: Discover the Beauty and History">
+    <meta name="twitter:description" content="Explore the rich history and scenic attractions of Pantabangan, including the famous Pantabangan Dam.">
+    <meta name="twitter:image" content="https://www.bworldonline.com/wp-content/uploads/2023/05/Pantabangan-Dam-NIA.GOV_.PH_.jpg">
+    <meta name="robots" content="index, follow">
+    </Head>
   <div class="min-h-screen flex flex-col">
     <div class="bg-red-500 text-white text-center">Site Under Development</div>
     <div class="navbar bg-base-100 shadow-md top-0 left-0 sticky ">
@@ -59,9 +76,7 @@
 </template>
 
 <script lang="ts" setup>
-// TypeScript code can go here (if needed)
+defineProps({ title: String,
+    metaDescription: String
+})
 </script>
-
-<style scoped>
-/* Add any scoped styles here */
-</style>

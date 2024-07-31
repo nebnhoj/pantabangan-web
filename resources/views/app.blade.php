@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title ?? 'Pantabangan' }}</title>
-    <meta name="description" content="{{ $metaDescription ?? 'Default description for the Pantabangan website.' }}">
+
+
     <link rel="canonical" href="{{ url()->current() }}">
     @vite('resources/js/app.ts')
 <!-- Google tag (gtag.js) -->

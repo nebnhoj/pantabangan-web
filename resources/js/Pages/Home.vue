@@ -1,36 +1,38 @@
 <template>
+
+
     <div class="pt-1">
-        <div class="carousel w-screen h-[600px]">
+        <div class="carousel w-screen h-[800px]">
   <div id="item1" class="carousel-item w-full">
     <img
       src="https://www.bworldonline.com/wp-content/uploads/2023/05/Pantabangan-Dam-NIA.GOV_.PH_.jpg"
-      class="w-full h-full object-cover"
+      class="w-screen h-full object-cover"
       alt="Pantabangan Dam"
     />
   </div>
   <div id="item2" class="carousel-item w-full">
     <img
       src="https://www.rappler.com/tachyon/2024/04/pantabangan-dam-el-nino-april-24-2024-005-scaled.jpg"
-      class="w-full h-full object-cover"
+      class="w-screen h-full object-cover"
       alt="Scenic View"
     />
   </div>
   <div id="item3" class="carousel-item w-full">
     <img
       src="https://pandawanfestival.wordpress.com/wp-content/uploads/2018/05/img_6598.jpg"
-      class="w-full h-full object-cover"
+      class="w-screen h-full object-cover"
       alt="Beautiful Landscape"
     />
   </div>
   <div id="item4" class="carousel-item w-full">
     <img
       src="https://lh5.googleusercontent.com/p/AF1QipOGdxxN_vN0Ma8AGpD5V_04Hg2k5dGgL_FXeQT7=w1080-h624-n-k-no"
-      class="w-full h-full object-cover"
+      class="w-screen h-full object-cover"
       alt="Mountain View"
     />
   </div>
 </div>
-<div class="flex justify-center w-full py-2 gap-2">
+<div class="flex justify-center w-screen py-2 gap-2">
   <a href="#item1" class="btn btn-xs">1</a>
   <a href="#item2" class="btn btn-xs">2</a>
   <a href="#item3" class="btn btn-xs">3</a>
@@ -71,6 +73,7 @@
 
 <script setup lang="ts">
 import AppLayout from "./../Layouts/AppLayout.vue";
+ 
 
 defineOptions({
     layout: AppLayout,
