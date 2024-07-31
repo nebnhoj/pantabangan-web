@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container mx-auto px-4 py-8 justify-evenly	">
+    <div class="container  px-4 py-8 justify-evenly	">
         <h1 class="text-3xl font-bold mb-4">About Pantabangan</h1>
         <p class="text-lg mb-4">
             Pantabangan, officially the Municipality of Pantabangan, is a 1st class municipality in the province of Nueva Ecija, Philippines. According to the 2020 census, it has a population of 31,763 people.

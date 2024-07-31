@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto w-screen p-10 justify-center">
+    <div class="container  w-screen p-10 justify-center">
       <h2 class="text-2xl font-bold mb-4">Visit These Must-See Attractions in Pantabangan</h2>
       <div v-if="attractions.length" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div v-for="attraction in attractions" :key="attraction.id" class="card card-compact bg-base-100 shadow-xl">
