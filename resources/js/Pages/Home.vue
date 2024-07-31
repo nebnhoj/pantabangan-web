@@ -24,7 +24,7 @@
   </div>
   <div id="item4" class="carousel-item w-full">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+      src="https://lh5.googleusercontent.com/p/AF1QipOGdxxN_vN0Ma8AGpD5V_04Hg2k5dGgL_FXeQT7=w1080-h624-n-k-no"
       class="w-full h-full object-cover"
       alt="Mountain View"
     />
