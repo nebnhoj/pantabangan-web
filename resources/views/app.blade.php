@@ -16,6 +16,8 @@
 
   gtag('config', 'G-TWE06MNXQM');
 </script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2063494299935345"
+crossorigin="anonymous"></script>
 </head>
 
 <body>

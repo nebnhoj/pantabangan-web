@@ -24,6 +24,7 @@
         <meta name="twitter:image"
             content="https://www.bworldonline.com/wp-content/uploads/2023/05/Pantabangan-Dam-NIA.GOV_.PH_.jpg">
         <meta name="robots" content="index, follow">
+        <meta name="google-adsense-account" content="ca-pub-2063494299935345">
     </Head>
     <div class="min-h-screen flex flex-col">
         <div class="navbar bg-base-100 shadow-md top-0 left-0 sticky z-[100]">

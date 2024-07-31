@@ -49,6 +49,15 @@ class PageController extends Controller
         ]);
     }
 
+    public function blogView(Request $request, string $slug)
+    {
+        return Inertia::render('BlogItem', [
+            'title' => 'Pantabangan.com | Blogs ',
+            'metaDescription' => 'Stay informed with the latest stories about Pantabangan, Nueva Ecija. Our blog covers a wide range of topics, including local events, cultural highlights, travel tips, and more.',
+       'slug' =>$slug
+        ]);
+    }
+
     public function news()
     {
         return Inertia::render('News', [
