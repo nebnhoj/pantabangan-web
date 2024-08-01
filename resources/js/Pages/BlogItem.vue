@@ -7,8 +7,13 @@
                 <img :src="blog.image" :alt="blog.title" class="w-full h-auto object-cover rounded" />
             </figure>
             <div v-html="blog.post" class="justify-items-stretch prose max-w-none"></div>
+           <div class="p-10">
+            <Comments :url="`/blogs/${slug}`"/>
+           </div>
         </div>
         <div v-else class="text-center">Loading...</div>
+
+
     </div>
 </template>
 
@@ -16,6 +21,7 @@
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 import AppLayout from "./../Layouts/AppLayout.vue";
+import Comments from "./Components/Comments/index.vue";
 
 defineOptions({
     layout: AppLayout,
