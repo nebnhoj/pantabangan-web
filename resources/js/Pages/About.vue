@@ -5,7 +5,16 @@
         <p class="text-lg mb-4">
             Pantabangan, officially the Municipality of Pantabangan, is a 1st class municipality in the province of Nueva Ecija, Philippines. According to the 2020 census, it has a population of 31,763 people.
         </p>
-        <p class="text-lg mb-4">
+        <div class=" mx-10">
+            <p class="text-lg font-bold">List of Barangays in Pantabangan</p>
+        <ul>
+            <li v-for="barangay in barangays">
+                <p class="text-base">- {{ barangay }}</p>
+            </li>
+        </ul>
+        </div>
+
+        <p class="text-lg mb-4 mt-4">
             This is the site of the Pantabangan Dam and Lake, located in the northern part of Nueva Ecija, at the foot of Mt. Mabilog and Mt. Dalimanok. Pantabangan is home to the Pantabangan–Carranglan Watershed Forest Reserve.
         </p>
         <p class="text-lg mb-4">
@@ -27,7 +36,9 @@
 
 <script setup lang="ts">
 import AppLayout from "./../Layouts/AppLayout.vue";
-
+const props = defineProps<{
+  barangays: string[];
+}>();
 defineOptions({
     layout: AppLayout,
 });

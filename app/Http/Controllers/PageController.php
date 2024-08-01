@@ -19,7 +19,23 @@ class PageController extends Controller
     {
         return Inertia::render('About', [
             'title' => 'Pantabangan.com | About',
-            'metaDescription' => 'Learn about Pantabangan, a picturesque municipality in Nueva Ecija known for its rich history, scenic attractions, and cultural heritage. Discover the story behind its development, the significance of Pantabangan Dam, and the local traditions that shape this vibrant community.'
+            'metaDescription' => 'Learn about Pantabangan, a picturesque municipality in Nueva Ecija known for its rich history, scenic attractions, and cultural heritage. Discover the story behind its development, the significance of Pantabangan Dam, and the local traditions that shape this vibrant community.',
+            'barangays' =>[
+                "Cadaclan",
+                "Cambitala",
+                "Conversion",
+                "Ganduz",
+                "Liberty",
+                "Malbang",
+                "Marikit",
+                "Napon-Napon",
+                "Poblacion East",
+                "Poblacion West",
+                "Sampaloc",
+                "San Juan",
+                "Villarica",
+                "Fatima"
+              ]
         ]);
     }
 

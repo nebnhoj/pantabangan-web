@@ -9,10 +9,9 @@
         <link rel="canonical" href="https://www.pantabangan.com/">
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Discover Pantabangan: A Scenic Getaway in Nueva Ecija" />
-        <meta property="og:description"
-            content="Explore Pantabangan, a first-class municipality in Nueva Ecija. Known for the majestic Pantabangan Dam and Lake, it offers stunning landscapes, rich history, and a wealth of recreational activities." />
+        <meta property="og:description" content="Explore Pantabangan, a first-class municipality in Nueva Ecija. Known for the majestic Pantabangan Dam and Lake, it offers stunning landscapes, rich history, and a wealth of recreational activities." />
         <meta property="og:image"
-            content="https://www.bworldonline.com/wp-content/uploads/2023/05/Pantabangan-Dam-NIA.GOV_.PH_.jpg" />
+            content="https://www.pantabangan.com/images/dam.png" />
         <meta property="og:url" content="https://pantabangan.com" />
         <meta property="og:site_name" content="Pantabangan" />
         <meta property="og:locale" content="en_PH" />
@@ -22,7 +21,7 @@
         <meta name="twitter:description"
             content="Explore the rich history and scenic attractions of Pantabangan, including the famous Pantabangan Dam.">
         <meta name="twitter:image"
-            content="https://www.bworldonline.com/wp-content/uploads/2023/05/Pantabangan-Dam-NIA.GOV_.PH_.jpg">
+            content="https://www.pantabangan.com/images/dam.png">
         <meta name="robots" content="index, follow">
         <meta name="google-adsense-account" content="ca-pub-2063494299935345">
     </Head>
